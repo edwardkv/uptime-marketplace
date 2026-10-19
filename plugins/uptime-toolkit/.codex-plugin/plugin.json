@@ -1,0 +1,35 @@
+{
+  "name": "uptime-toolkit",
+  "version": "0.1.0",
+  "description": "Project-specific engineering workflows for the uptime-app Go backend and Next.js frontend.",
+  "author": {
+    "name": "Edward"
+  },
+  "license": "MIT",
+  "keywords": [
+    "uptime-app",
+    "golang",
+    "nextjs",
+    "code-review",
+    "playwright",
+    "openapi"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Uptime Toolkit",
+    "shortDescription": "Workflows and conventions for uptime-app",
+    "longDescription": "Project-specific skills for reviewing, changing, testing, documenting, and shipping the uptime-app backend and frontend.",
+    "developerName": "Edward",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Review the current uptime-app changes for correctness and regressions",
+      "Implement a backend API change and synchronize its OpenAPI contract",
+      "Verify the completed frontend flow in a real browser"
+    ],
+    "brandColor": "#2563EB"
+  }
+}

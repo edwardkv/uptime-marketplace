@@ -1,0 +1,27 @@
+{
+  "name": "uptime-toolkit-marketplace",
+  "owner": {
+    "name": "Edward"
+  },
+  "metadata": {
+    "description": "Personal marketplace for uptime-app development tools.",
+    "version": "0.1.0"
+  },
+  "interface": {
+    "displayName": "Uptime Toolkit"
+  },
+  "plugins": [
+    {
+      "name": "uptime-toolkit",
+      "source": {
+        "source": "local",
+        "path": "./plugins/uptime-toolkit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

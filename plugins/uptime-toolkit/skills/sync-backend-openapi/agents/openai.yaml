@@ -1,0 +1,6 @@
+interface:
+  display_name: "Backend OpenAPI routes"
+  short_description: "Синхронизирует роуты и OpenAPI"
+  default_prompt: "Используй $sync-backend-openapi, чтобы обновить Swaggo-аннотации и OpenAPI-контракт после изменения backend-роута."
+policy:
+  allow_implicit_invocation: true
